@@ -15,8 +15,9 @@ Download and unzip the dataset, put them under ```data``` directory.
 ## Install requirements
 First creating a conda environment named IER
 ```
-conda create -n IER python=3.6
-pip install -r requirements.txt
+conda create -n IER python=3.6  ### create envs
+conda activate IER    ### launch envs  
+pip install -r requirements.txt   ### install requirements by IER, except for pytorch
 ```
 For the GPU we use (RTX-A100 or A6000), it requires pytorch installation of CUDA11, thus further reinstall pytorch by
 ```
