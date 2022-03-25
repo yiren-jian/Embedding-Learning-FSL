@@ -1,6 +1,6 @@
 # FSL-pretrained-models
 
-In this repo, we provide a collection of scripts for pretraining models for few-shot learning, some of them are used in **[Label Hallucination for Few-Shot Classification](https://arxiv.org/abs/2112.03340)**. Thanks **[SKD]**(https://github.com/brjathu/SKD) and **[Rizve et al.]**(https://github.com/nayeemrizve/invariance-equivariance) for their original implementation.
+In this repo, we provide a collection of scripts for pretraining models for few-shot learning, some of them are used in **[Label Hallucination for Few-Shot Classification](https://arxiv.org/abs/2112.03340)**. Thanks **[SKD](https://github.com/brjathu/SKD)** and **[Rizve et al.](https://github.com/nayeemrizve/invariance-equivariance)** for their original implementation.
 
 ## Download Data
 The data we used here is preprocessed by the repo of [MetaOptNet](https://github.com/kjunelee/MetaOptNet), Please find the renamed versions of the files in below link by [RFS](https://github.com/WangYueFt/rfs).
