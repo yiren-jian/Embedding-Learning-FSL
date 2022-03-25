@@ -47,3 +47,35 @@ loss = loss_div + opt.gamma*loss_a
 
 ## Note
 We found that results vary (and sometimes a lot) across different runs. To try to get models matching results for what reported in these papers, we found that it's important to have multiple runs of the initial training (generation 0 in IER and SKD) and pick the best model to start with, for distillation (generation 1). 
+
+Please consider citing the paper of SKD and IER
+
+```bibtex
+@InProceedings{Rizve_2021_CVPR,
+    author    = {Rizve, Mamshad Nayeem and Khan, Salman and Khan, Fahad Shahbaz and Shah, Mubarak},
+    title     = {Exploring Complementary Strengths of Invariant and Equivariant Representations for Few-Shot Learning},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2021},
+    pages     = {10836-10846}
+}
+```
+
+```bibtex
+@article{rajasegaran2020self,
+  title={Self-supervised Knowledge Distillation for Few-shot Learning},
+  author={Rajasegaran, Jathushan and Khan, Salman and Hayat, Munawar and Khan, Fahad Shahbaz and Shah, Mubarak},
+  journal={https://arxiv.org/abs/2006.09785},
+  year = {2020}
+}
+```
+
+It would be also nice if you consider reading our latest work on FSL :)
+```bibtex
+@article{Jian2022LabelHalluc,
+    author = {Yiren Jian and Lorenzo Torresani},
+    title = {Label Hallucination for Few-shot Classification},
+    journal = {AAAI},
+    year = {2022}
+}
+```
