@@ -2,14 +2,13 @@
 
 In this repo, we provide a collection of scripts for pretraining models for few-shot learning, some of them are used in **[Label Hallucination for Few-Shot Classification](https://arxiv.org/abs/2112.03340)**. Thanks **[SKD](https://github.com/brjathu/SKD)** and **[Rizve et al.](https://github.com/nayeemrizve/invariance-equivariance)** for their original implementation.
 
+## TL, DR
+I have updated their original code a bit so that you should run freely (latest pytorch and fix some bugs in SKD) on you machine following the training code.
+
 ## Download Data
 The data we used here is preprocessed by the repo of [MetaOptNet](https://github.com/kjunelee/MetaOptNet), Please find the renamed versions of the files in below link by [RFS](https://github.com/WangYueFt/rfs).
 
 Download and unzip the dataset, put them under ```data``` directory.
-
-## TL, DR
-I have updated their original code a bit so that you should run freely (latest pytorch and fix some bugs in SKD) on you machine following the training code.
-
 
 ## Invariant and Equivariant Representations (IER)
 We modify the `train.py` mainly to remove wandb usage and save the model every epoch to disk. Further to work with the latest pytorch version, we change the `.view()` function in `utils` to `.reshape()`.
