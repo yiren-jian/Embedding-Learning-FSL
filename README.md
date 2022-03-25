@@ -2,6 +2,8 @@
 
 In this repo, we provide a collection of scripts for pretraining embedding models for few-shot learning, some of them are used in [Label Hallucination for Few-Shot Classification](https://arxiv.org/abs/2112.03340) (in [Dropbox](https://www.dropbox.com/sh/6af4q91qrvv4t7u/AACrC960J_sc85dlYh0-K_MSa?dl=0)). Thanks [SKD](https://github.com/brjathu/SKD) and [Rizve et al.](https://github.com/nayeemrizve/invariance-equivariance) for their original implementation.
 
+**I'm trying to re-train the IER model for tiered-ImageNet but each training is taking 3.75 days (probably runs to select the best performing model) on 2 A-100 GPUs, I will update ASAP.**
+
 ## TL, DR
 I have updated their original code a bit so that you should run freely (latest pytorch and fix some bugs in SKD) on you machine following the training code.
 
