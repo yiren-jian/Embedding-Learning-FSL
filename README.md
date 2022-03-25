@@ -1,4 +1,4 @@
-# Embedding learning (pre-training) for Few-shot Learning
+# Embedding pre-training for Few-shot Learning
 
 In this repo, we provide a collection of scripts for pretraining embedding models for few-shot learning, some of them are used in [Label Hallucination for Few-Shot Classification](https://arxiv.org/abs/2112.03340). Thanks [SKD](https://github.com/brjathu/SKD) and [Rizve et al.](https://github.com/nayeemrizve/invariance-equivariance) for their original implementation.
 
