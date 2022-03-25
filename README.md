@@ -12,9 +12,7 @@ The data we used here is preprocessed by the repo of [MetaOptNet](https://github
 
 Download and unzip the dataset, put them under ```data``` directory.
 
-## Invariant and Equivariant Representations (IER)
-We modify the `train.py` mainly to remove wandb usage and save the model every epoch to disk. Further to work with the latest pytorch version, we change the `.view()` function in `utils` to `.reshape()`.
-
+## Install requirements
 First creating a conda environment named IER
 ```
 conda create -n IER python=3.6
@@ -24,6 +22,10 @@ For the GPU we use (RTX-A100 or A6000), it requires pytorch installation of CUDA
 ```
 conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 ```
+
+## Invariant and Equivariant Representations (IER)
+We modify the `train.py` mainly to remove wandb usage and save the model every epoch to disk. Further to work with the latest pytorch version, we change the `.view()` function in `utils` to `.reshape()`.
+
 training the model follow the original implementation (e.g. for FC100)
 ```
 python3 train.py --model resnet12 --model_path save --dataset FC100 --data_root data --n_aug_support_samples 5 --n_ways 5 --n_shots 1 --epochs 65 --lr_decay_epochs 60 --gamma 1.0 --contrast_temp 1.0 --mvavg_rate 0.99 --memfeature_size 64 --batch_size 64 --tags FC100,INV_EQ
