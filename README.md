@@ -7,6 +7,10 @@ The data we used here is preprocessed by the repo of [MetaOptNet](https://github
 
 Download and unzip the dataset, put them under ```data``` directory.
 
+## TL, DR
+I have updated their original code a bit so that you should run freely (latest pytorch and fix some bugs in SKD) on you machine following the training code.
+
+
 ## Invariant and Equivariant Representations (IER)
 We modify the `train.py` mainly to remove wandb usage and save the model every epoch to disk. Further to work with the latest pytorch version, we change the `.view()` function in `utils` to `.reshape()`.
 
