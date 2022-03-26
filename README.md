@@ -8,9 +8,7 @@ In this repo, we provide a collection of scripts for pretraining embedding model
 I have updated their original code a bit so that you should run freely (latest pytorch and fix some bugs in SKD) on you machine following the training code.
 
 ## Download Data
-The data we used here is preprocessed by the repo of [MetaOptNet](https://github.com/kjunelee/MetaOptNet), Please find the renamed versions of the files in below link by [RFS](https://github.com/WangYueFt/rfs).
-
-Download and unzip the dataset, put them under ```data``` directory.
+The data we used here is preprocessed by the repo of [MetaOptNet](https://github.com/kjunelee/MetaOptNet), Please find the renamed versions of the files in below link by [RFS](https://github.com/WangYueFt/rfs). Download and unzip the dataset, put them under ```data``` directory.
 
 Note that **training with tiered-ImageNet requires at least 64GB of CPU RAM, ideally 128GB.**
 
