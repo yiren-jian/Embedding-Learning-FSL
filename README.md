@@ -48,7 +48,7 @@ loss = loss_div + opt.gamma*loss_a
 ## Note
 We found that results vary (and sometimes a lot) across different runs. To try to get models matching results for what reported in these papers, we found that it's important to have multiple runs of the initial training (generation 0 in IER and SKD) and pick the best model to start with, for distillation (generation 1). 
 
-**Training with tiered=ImageNet requires at least 64GB of CPU RAM, idealy 128GB.**
+**Training with tiered-ImageNet requires at least 64GB of CPU RAM, idealy 128GB.**
 
 Please consider citing the paper of SKD and IER
 
