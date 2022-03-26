@@ -75,7 +75,7 @@ It would be also nice if you consider reading our latest work on FSL :)
 @article{Jian2022LabelHalluc,
     author = {Yiren Jian and Lorenzo Torresani},
     title = {Label Hallucination for Few-shot Classification},
-    journal = {AAAI},
+    journal = {AAAI conference on artificial intelligence},
     year = {2022}
 }
 ```
