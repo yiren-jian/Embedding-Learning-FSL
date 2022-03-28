@@ -5,7 +5,7 @@ In this repo, we provide a collection of scripts for pretraining embedding model
 **I'm trying to re-train the IER model for tiered-ImageNet but each training is taking 3.75 days (probably more runs to select the best performing model) on 2 NVIDIA-A100 GPUs (each with 40GB), I will update ASAP.**
 
 ## TL, DR
-I have updated their original code a bit so that you should run freely (latest pytorch and fix some bugs in SKD) on you machine following the training code.
+I have updated their original code a bit so that you should run freely (latest pytorch and fix some bugs in SKD) on you machine following the training code. Pre-trained models for tiered-ImageNet is [here](https://www.dropbox.com/sh/gxmu8d75a9grfph/AABOPOoTZmu2wnKnLYL1AKv9a?dl=0). I will keep updating it when more models are trained.
 
 ## Download Data
 The data we used here is preprocessed by the repo of [MetaOptNet](https://github.com/kjunelee/MetaOptNet), Please find the renamed versions of the files in below link by [RFS](https://github.com/WangYueFt/rfs). Download and unzip the dataset, put them under ```data``` directory.
