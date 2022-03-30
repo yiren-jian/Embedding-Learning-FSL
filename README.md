@@ -9,7 +9,7 @@ I have updated their original code a bit so that you should run freely (latest p
 - [x] SKD Generation 0
 - [ ] SKD Generation 1
 - [ ] IER
-- [ ] IER distill
+- [x] IER distill
 
 ## Download Data
 The data we used here is preprocessed by the repo of [MetaOptNet](https://github.com/kjunelee/MetaOptNet), Please find the renamed versions of the files in below link by [RFS](https://github.com/WangYueFt/rfs). Download and unzip the dataset, put them under ```data``` directory.
