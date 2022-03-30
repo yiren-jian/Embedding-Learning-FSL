@@ -7,7 +7,7 @@ In this repo, we provide a collection of scripts for pretraining embedding model
 ## TL, DR
 I have updated their original code a bit so that you should run freely (latest pytorch and fix some bugs in SKD) on you machine following the training code. Newly re-trained models for tiered-ImageNet is [here](https://www.dropbox.com/sh/gxmu8d75a9grfph/AABOPOoTZmu2wnKnLYL1AKv9a?dl=0). I will keep updating it when more models are trained.
 - [x] SKD Generation 0
-- [ ] SKD Generation 1
+- [x] SKD Generation 1 (`gamma=0.025` works best)
 - [x] IER (`bsz=64`)
 - [ ] IER distill (`bsz=64`)
 
