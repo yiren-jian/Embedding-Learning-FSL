@@ -77,7 +77,7 @@ Please consider citing the paper of SKD and IER
 It would be also nice if you consider reading our latest work on FSL :)
 ```bibtex
 @article{Jian2022LabelHalluc,
-    author = {Yiren Jian and Lorenzo Torresani},
+    author = {Jian, Yiren and Torresani, Lorenzo},
     title = {Label Hallucination for Few-shot Classification},
     journal = {AAAI conference on artificial intelligence},
     year = {2022}
