@@ -1,6 +1,6 @@
 # Embedding pre-training for Few-shot Learning
 
-In this repo, we provide a collection of scripts for pretraining embedding models for few-shot learning, some of them are used in [Label Hallucination for Few-Shot Classification](https://github.com/yiren-jian/LabelHalluc) (in [Dropbox](https://www.dropbox.com/sh/6af4q91qrvv4t7u/AACrC960J_sc85dlYh0-K_MSa?dl=0)). Thanks [SKD](https://github.com/brjathu/SKD) and [Rizve et al.](https://github.com/nayeemrizve/invariance-equivariance) for their original implementation.
+In this repo, we provide a collection of scripts for pretraining embedding models for few-shot learning, some of them are used in [Label Hallucination for Few-Shot Classification](https://github.com/yiren-jian/LabelHalluc) (in [Dropbox](https://www.dropbox.com/sh/ikipligbneta9qk/AABew7LSYDMG7lbSC9BQgcMsa?dl=0)). Thanks [SKD](https://github.com/brjathu/SKD) and [Rizve et al.](https://github.com/nayeemrizve/invariance-equivariance) for their original implementation.
 
 ## TL, DR
 I have updated their original code a bit so that you should run freely (latest pytorch and fix some bugs in SKD) on you machine following the training code. Newly re-trained models for tiered-ImageNet is [here](https://www.dropbox.com/sh/gxmu8d75a9grfph/AABOPOoTZmu2wnKnLYL1AKv9a?dl=0). I will keep updating it when more models are trained.
