@@ -76,10 +76,13 @@ Please consider citing the paper of SKD and IER
 
 It would be also nice if you consider reading our latest work on FSL :)
 ```bibtex
-@article{Jian2022LabelHalluc,
-    author = {Jian, Yiren and Torresani, Lorenzo},
-    title = {Label Hallucination for Few-shot Classification},
-    journal = {AAAI conference on artificial intelligence},
-    year = {2022}
+@inproceedings{jian2022label,
+  title={Label hallucination for few-shot classification},
+  author={Jian, Yiren and Torresani, Lorenzo},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={36},
+  number={6},
+  pages={7005--7014},
+  year={2022}
 }
 ```
